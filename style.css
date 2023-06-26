@@ -11,11 +11,19 @@ body {
     background: rgb(76, 76, 236);
 }
 
+.headerlinks div {
+    font-size: 18px;
+}
+
 .header2 {
     display: flex;
     gap: 300px;
     background: rgb(76, 76, 236);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header2 img {
+    margin-bottom: 50px;
 }
 
 .headerlinks {
@@ -29,7 +37,11 @@ body {
 .headertext {
     width: 600px;
     font-weight: bolder;
+    font-style: oblique;
+}
 
+.headertext div {
+    font-feature-settings: "ccmp";
 }
 
 a {
@@ -51,4 +63,42 @@ a {
 
 .header2 img {
     border-style: solid;
+}
+
+.instruments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+}
+
+.instrumentstext {
+    font-size: 48px;
+    text-align: center;
+    margin: 30px 500px 30px 500px;   
+}
+
+.instrumentpics {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px 500px 30px 500px;
+}
+
+.instrumentpics img {
+    border-style: solid;
+    border: 3px;
+    border-color: blue;
+}
+
+.instrumentlabels {
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+    margin-bottom: 30px;
+}
+
+.instrumentlabels div {
+    font-size: 25px;
+    margin: 0 35px;
 }
